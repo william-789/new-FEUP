@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/general.css">
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/6ecff99815.js" crossorigin="anonymous"></script>
+
+    <title>FEUP - Faculdade de Engenharia da Universidade do Porto</title>
+</head>
+<body>
+    <!-- MISSING responsive design-->
+    <section class="homepage">
+        <!-- MISSING other pages-->
+        <nav class="mainNav">
+            <img src="img/LogoUPFeup.png" alt="FEUP">
+            <ul>
+                <li><a href="#" onclick="alertIncomplete()">Services</a></li>
+                <li><a href="#">Derpartments</a>
+                    <ul>
+                        <li><a href="#">Department of Chemical Engineering </a></li>
+                        <li><a href="#">Department of Civil Engineering</a></li>
+                        <li><a href="#">Department of Electrical and Computer Engineering </a></li>
+                        <li><a href="#">Department of Engineering Physics</a></li>
+                        <li><a href="#">Department of Industrial Engineering and Management</a></li>
+                        <li><a href="#">Department of Informatics Engineering</a></li>
+                        <li><a href="#">Department of Mechanical Engineering </a></li>
+                        <li><a href="#">Department of Metallurgical and Materials Engineering</a></li>
+                        <li><a href="#">Mining Engineering Department</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="#">Courses</a>
+                    <ul>
+                        <li><a href="#">Undergrad</a></li>
+                        <li><a href="#">Graduate</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Webmail</a></li>
+                <li><a href="#" class="login"><button onclick="alertIncomplete()">Login</button></a></li>
+                <li><a href="#">PT</a></li>
+            </ul>
+        </nav>
+        <nav class="secondaryNav">
+            <ul>
+                <li><a href="#">INFORMATION</a>
+                    <ul>
+                        <li><a href="#">Revista Engenharia</a></li>
+                        <li><a href="#">FEUP World</a></li>
+                        <li><a href="#">Engenharia num Minuto</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">EMPLOYMENT AND PROCUREMENT</a>
+                    <ul>
+                        <li><a href="#">R&D Scholarships</a></li>
+                        <li><a href="#">Employment Opportunities</a></li>
+                        <li><a href="#">Recruitment</a></li>
+                        <li><a href="#">Procurement</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">USEFUL LINKS</a>
+                    <ul>
+                        <li><a href="#">Provedor do Estudante</a></li>
+                        <li><a href="#">Social Action and Medical Support</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">AEFEUP</a></li>
+                        <li><a href="#">Mentoria FEUP</a></li>
+                        <li><a href="#">Student Unions</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">e-learning</a></li>
+            </ul>
+        </nav>
+        
+    </section>
+    <!-- INFO section-->
+    <section>
+        <nav class="infoNav">
+            <!-- MISSING other pages -->
+            <ul>
+                <li><a href="#">FEUP Admissions</a></li>
+                <li><a href="#">FEUP in Figures</a></li>
+                <li><a href="#">How to get to FEUP?</a></li>
+                <li><a href="#">MIT Portugal</a></li>
+                <li><a href="#">CMU Portugal</a></li>
+                <li><a href="#">UTA|Portugal</a></li>
+                <li><a href="#">Safety | Emergency</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="size-5">
+                <!-- MISSING shadow and description
+                <a class="destaque"><img src="img/slider/homepage/pic1.png" alt=""></a>-->
+                <!-- Slider -->
+                <div class="slider">
+                    <div class="images">
+                        <input type="radio" name="slide" id="img1" checked>
+                        <input type="radio" name="slide" id="img2">
+                        <input type="radio" name="slide" id="img3">
+                        <input type="radio" name="slide" id="img4">
+                        <input type="radio" name="slide" id="img5">
+            
+                        <img src="img/slider/homepage/pic1.png" class="m1" alt="img1">
+                        <img src="img/slider/homepage/pic2.png" class="m2" alt="img2">
+                        <img src="img/slider/homepage/pic3.png" class="m3" alt="img3">
+                        <img src="img/slider/homepage/pic4.png" class="m4" alt="img4">
+                        <img src="img/slider/homepage/pic5.png" class="m5" alt="img5">
+                    </div>
+                    <div class="dots">
+                        <label for="img1"></label>
+                        <label for="img2"></label>
+                        <label for="img3"></label>
+                        <label for="img4"></label>
+                        <label for="img5"></label>
+                    </div>
+                </div>
+                
+                <!-- Destaques -->
+                <a class="destaque"><img src="img/destaque/covid.png" alt="COVID-19"></a>
+                <a class="destaque"><img src="img/destaque/mobilidade.png" alt="Mobilidade"></a>         
+            </div>
+            <div class="size-5">
+                <!-- Eventos -->
+                <!-- the following part is a grid -->
+                <div class="container">
+                    <div class="events">
+                        <h1>Events</h1>
+                        <ul>
+                            <li><a href="#">Provas de Doutoramento: ''Estudo do comportamento à fadiga de 
+                                reparações adesivas de
+                                    estruturas de alumínio com compósitos de carbono-epóxido''</a></li>
+                            <li><a href="#">Provas de Agregação: ''Three decades of statistical pattern 
+                                recognition paradigm for SHM of
+                                    bridges''</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Calendar -->    
+                    <table class="calendtable">
+                        <tr>
+                            <td colspan="6"><b>December</b> / January</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <th class="calendsem" title="Sunday" id="domingo">S</th>
+                            <th class="calendsem" title="Monday" id="segunda">M</th>
+                            <th class="calendsem" title="Tuesday" id="terca">T</th>
+                            <th class="calendsem" title="Wednesday" id="quarta">W</th>
+                            <th class="calendsem" title="Thursday" id="quinta">T</th>
+                            <th class="calendsem" title="Friday" id="sexta">F</th>
+                            <th class="calendsem" title="Saturday" id="sabado">S</th>
+                        </tr>
+                        <tr>
+                            <td class="calendfds">19</td>
+                            <td class="calendsel">20</td>
+                            <td class="calendevent"><a href="noticias_geral.eventos?p_g_eventos=0&amp;P_dia=2021-12-21"
+                                    title="Several Simultaneous Events">21</a></td>
+                            <td class="calendevent"><a href="noticias_geral.ver_noticia?p_nr=127030"
+                                    title="Provas de Doutoramento: ''Tactical sales and Operations Planning: quantitative decision-making approaches for integrated planning''">22</a>
+                            </td>
+                            <td class="calendnorm">23</td>
+                            <td class="calendnorm">24</td>
+                            <td class="calendfer"><span title=", Natal">25</span></td>
+                        </tr>
+                        <tr>
+                            <td class="calendfds">26</td>
+                            <td class="calendnorm">27</td>
+                            <td class="calendnorm">28</td>
+                            <td class="calendnorm">29</td>
+                            <td class="calendnorm">30</td>
+                            <td class="calendnorm">31</td>
+                            <td class="calendfds">01</td>
+                        </tr>
+                        <tr>
+                            <td class="calendfds">02</td>
+                            <td class="calendnorm">03</td>
+                            <td class="calendnorm">04</td>
+                            <td class="calendevent"><a href="noticias_geral.ver_noticia?p_nr=126550"
+                                    title="Provas de Agregação: ''Three decades of statistical pattern recognition paradigm for SHM of bridges''">05</a>
+                            </td>
+                            <td class="calendevent"><a href="noticias_geral.ver_noticia?p_nr=126550"
+                                    title="Provas de Agregação: ''Three decades of statistical pattern recognition paradigm for SHM of bridges''">06</a>
+                            </td>
+                            <td class="calendnorm">07</td>
+                            <td class="calendfds">08</td>
+                        </tr>
+                        <tr>
+                            <td class="calendfds">09</td>
+                            <td class="calendnorm">10</td>
+                            <td class="calendnorm">11</td>
+                            <td class="calendnorm">12</td>
+                            <td class="calendnorm">13</td>
+                            <td class="calendnorm">14</td>
+                            <td class="calendfds">15</td>
+                        </tr>
+                        <tr>
+                            <td class="calendfds">16</td>
+                            <td class="calendnorm">17</td>
+                            <td class="calendnorm">18</td>
+                            <td class="calendnorm">19</td>
+                            <td class="calendnorm">20</td>
+                            <td class="calendnorm">21</td>
+                            <td class="calendfds">22</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+    <!-- News section -->
+    <section class="newsSection">
+        <h1 >News</h1>
+        <!-- the following part is a grid -->
+        <div class="container">
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/microscope-svgrepo-com.svg">
+                    <p>Bolsa de Investigacao - Quimica</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/microscope-svgrepo-com.png">
+                    <p>Bolsa de Investigacao - UNORTE</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/education-svgrepo-com.svg">
+                    <p>Doutorado</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/paint-brush-svgrepo-com.svg">
+                    <p>Evento</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/education-svgrepo-com.svg">
+                    <p>Doutorado</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/microscope-svgrepo-com.png">
+                    <p>Bolsa de Investigacao - UNORTE</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/education-svgrepo-com.svg">
+                    <p>Doutorado</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/microscope-svgrepo-com.png">
+                    <p>Bolsa de Investigacao - UNORTE</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/education-svgrepo-com.svg">
+                    <p>Doutorado</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/NewsSVG/education-svgrepo-com.svg">
+                    <p>Doutorado</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="size-4">
+                <ul>
+                    <li>Faculdade de Engenharia da Universidade do Porto</li>
+                    <li>Rua Dr. Roberto Frias, s/n 4200-465 Porto PORTUGAL</li>
+                    <li>VoIP/SIP: feup@fe.up.pt</li>
+                    <li>ISN: 3599*654</li>
+                    <li>Telephone: +351 22 508 14 00</li>
+                    <li>Fax: +351 22 508 14 40</li>
+                    <li>E-mail: <a href="mailto:feup@fe.up.pt">feup@fe.up.pt</a></li>
+                </ul>
+            </div>
+            <div class="size-4">
+                <ul class="socialMedia">
+                    <li><a href="https://pt-pt.facebook.com/paginafeup/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/feup_porto/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/feup_porto" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://pt.linkedin.com/school/feup/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

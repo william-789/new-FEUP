@@ -1,0 +1,118 @@
+/*----- General sizes ------*/
+.size-1 {width: 100%;}
+.size-3 {width: 25%;}
+.size-4 {width: 35%;}
+.size-5 {width: 42%;}
+.size-6 {width: 50%;}
+.size-9 {width: 75%;}
+/*--- General Settings ---*/
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #8c2d19;
+    font-weight: 300;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/*---------  NavBar --------*/
+.mainNav {
+    background: rgba(0, 0, 0, 0.3);
+}
+.secondaryNav {
+    background: rgba(140, 45, 19, 0.3);
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+nav ul {
+    display: inline;
+    margin: auto;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    margin: auto 10px;
+    display: block;
+}
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #fff;
+}
+nav ul ul {
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background: rgba(140, 45, 19);
+}
+nav ul ul li a {
+    color: #fff;
+}
+.secondaryNav ul li a:hover {
+    background: rgba(140, 45, 19, 0.5);
+}
+.secondaryNav ul ul {
+    top: 140px;
+}
+.infoNav {
+    background: #8c2d19;
+    height: 40px;
+}
+
+.login button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.login {
+    border: 2px solid #fff;
+}
+
+/*----- Footer -----*/
+
+.size-4 {
+    margin: auto;
+}
+.size-4 ul li {
+    list-style: none;
+}
+footer {
+    border-top: 4px solid rgb(179, 25, 25);
+    background-color: rgb(30, 30, 30);
+}
+.socialMedia li i {
+    font-size: 30px;
+}
+.socialMedia li i:hover {
+    color:rgb(209, 228, 141);
+}
